@@ -3,10 +3,10 @@ const epf = require("express-php-fpm").default
 const https = require('https');
 const fs = require('fs');
 
-// const credentials = {
-//   key: fs.readFileSync('ssl/selfsigned.key'),
-//   cert: fs.readFileSync('ssl/selfsigned.crt')
-// };
+const credentials = {
+  key: fs.readFileSync('ssl/selfsigned.key'),
+  cert: fs.readFileSync('ssl/selfsigned.crt')
+};
 
 const options = {
     // root of your php files
@@ -33,8 +33,7 @@ httpRedirect.use(function(req, res, next) {
   next();
 });
 
-zullrgs.listen(80);
-// httpRedirect.listen(80);
+httpRedirect.listen(80);
 
-// var server = https.createServer(credentials,zullrgs);
-// server.listen(443, () => console.log('ZUL LRGS is running in HTTPS mode'));
+var server = https.createServer(credentials,zullrgs);
+server.listen(443, () => console.log('ZUL LRGS is running in HTTPS mode'));
