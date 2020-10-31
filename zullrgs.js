@@ -19,10 +19,10 @@ const options = {
     socketOptions: { port: 9000 },
 }
 
-const cnc = express()
+const zullrgs = express()
 const httpRedirect = express();
 
-cnc.use("/", epf(options))
+zullrgs.use("/", epf(options))
 
 // set up a route to redirect http to https
 httpRedirect.use(function(req, res, next) {
@@ -35,5 +35,5 @@ httpRedirect.use(function(req, res, next) {
 
 httpRedirect.listen(80);
 
-var server = https.createServer(credentials,cnc);
-server.listen(443, () => console.log('eMooVit CNC is running in HTTPS mode'));
+var server = https.createServer(credentials,zullrgs);
+server.listen(443, () => console.log('ZUL LRGS is running in HTTPS mode'));
