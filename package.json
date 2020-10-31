@@ -1,0 +1,23 @@
+{
+  "name": "zullrgs",
+  "version": "1.0.0",
+  "description": "This is Zul's LRGS files",
+  "main": "zullrgs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulsyah/zullrgs.git"
+  },
+  "author": "AZ Putra (zul)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zulsyah/zullrgs/issues"
+  },
+  "homepage": "https://github.com/zulsyah/zullrgs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-php-fpm": "^2.0.2"
+  }
+}
