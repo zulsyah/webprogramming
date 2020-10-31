@@ -4,8 +4,8 @@ const https = require('https');
 const fs = require('fs');
 
 const credentials = {
-  key: fs.readFileSync('ssl/10.10.2.231.key'),
-  cert: fs.readFileSync('ssl/10.10.2.231.crt')
+  key: fs.readFileSync('ssl/selfsigned.key'),
+  cert: fs.readFileSync('ssl/selfsigned.crt')
 };
 
 const options = {
