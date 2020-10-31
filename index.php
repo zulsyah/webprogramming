@@ -161,7 +161,7 @@ var pagenav_next = "Next";
 <div class='logo-text section' id='Header Title' name='Header Title Widget'><div class='widget HTML' data-version='1' id='HTML30'>
 <div class='widget-content'>
 <p>TP2543 Web Programming Deliverables</p><br>
-<img src="/zul_bulat.png" width="20%" height="20%" class="img-responsive img-circle" style="display:inline">
+<img src="zul_bulat.png" width="20%" height="20%" class="img-responsive img-circle" style="display:inline">
 <p style="font-size: 40px;"">A166007</p>
 <h1 style="color:white; font-family: 'Rubik', sans-serif;">ZULFHANIZAM AMIR SYAHPUTRA</h1>
 </div>
