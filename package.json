@@ -4,6 +4,7 @@
   "description": "This is Zul's LRGS files",
   "main": "zullrgs.js",
   "scripts": {
+    "start": "node zullrgs.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
