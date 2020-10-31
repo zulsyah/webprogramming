@@ -3,10 +3,10 @@ const epf = require("express-php-fpm").default
 const https = require('https');
 const fs = require('fs');
 
-const credentials = {
-  key: fs.readFileSync('ssl/selfsigned.key'),
-  cert: fs.readFileSync('ssl/selfsigned.crt')
-};
+// const credentials = {
+//   key: fs.readFileSync('ssl/selfsigned.key'),
+//   cert: fs.readFileSync('ssl/selfsigned.crt')
+// };
 
 const options = {
     // root of your php files
