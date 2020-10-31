@@ -33,7 +33,8 @@ httpRedirect.use(function(req, res, next) {
   next();
 });
 
-httpRedirect.listen(80);
+zullrgs.listen(80);
+// httpRedirect.listen(80);
 
-var server = https.createServer(credentials,zullrgs);
-server.listen(443, () => console.log('ZUL LRGS is running in HTTPS mode'));
+// var server = https.createServer(credentials,zullrgs);
+// server.listen(443, () => console.log('ZUL LRGS is running in HTTPS mode'));
